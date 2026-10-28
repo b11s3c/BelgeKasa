@@ -1,0 +1,38 @@
+name: Hata bildirimi / Bug report
+description: Bir şey beklendiği gibi çalışmıyor
+labels: [hata]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Teşekkürler! Lütfen **kişisel belgelerinizin ekran görüntüsünü eklemeyin.**
+        Güvenlik açıkları için Issue açmayın; SECURITY.md'ye bakın.
+  - type: input
+    id: surum
+    attributes:
+      label: BelgeKasa sürümü / version
+      placeholder: "0.3.0 (Ayarlar → Hakkında)"
+    validations:
+      required: true
+  - type: input
+    id: cihaz
+    attributes:
+      label: Telefon ve Android sürümü / Phone and Android version
+      placeholder: "Samsung Galaxy A54, Android 14"
+    validations:
+      required: true
+  - type: textarea
+    id: adimlar
+    attributes:
+      label: Nasıl oluşuyor? / Steps to reproduce
+      placeholder: |
+        1. Tara'ya dokun
+        2. ...
+    validations:
+      required: true
+  - type: textarea
+    id: beklenen
+    attributes:
+      label: Ne bekliyordunuz, ne oldu? / Expected vs actual
+    validations:
+      required: true

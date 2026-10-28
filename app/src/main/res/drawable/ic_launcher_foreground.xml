@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- BelgeKasa: a document with a safe dial — documents kept in a vault. 108dp adaptive canvas,
+     artwork inside the 66dp safe zone. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <!-- document -->
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M34,26h24l12,12v40a4,4 0,0 1,-4 4h-32a4,4 0,0 1,-4 -4v-48a4,4 0,0 1,4 -4z" />
+    <path android:fillColor="#BFD4F2" android:pathData="M58,26v8a4,4 0,0 0,4 4h8z" />
+    <path android:fillColor="#1F5FAD" android:pathData="M37,44h21v3h-21z M37,51h25v3h-25z M37,58h15v3h-15z" />
+    <!-- safe dial -->
+    <path android:fillColor="#F5B83D" android:pathData="M68,55a15,15 0,1 1,0 30a15,15 0,1 1,0 -30z" />
+    <path android:fillColor="#0E3A73" android:pathData="M68,60a10,10 0,1 1,0 20a10,10 0,1 1,0 -20z" />
+    <path android:fillColor="#F5B83D" android:pathData="M60,69h16v2h-16z M67,62h2v16h-2z" />
+    <path android:fillColor="#F5B83D" android:pathData="M68,66.5a3.5,3.5 0,1 1,0 7a3.5,3.5 0,1 1,0 -7z" />
+</vector>

@@ -1,0 +1,53 @@
+[versions]
+agp = "9.3.1"
+kotlin = "2.2.21"
+composeBom = "2025.10.01"
+coreKtx = "1.17.0"
+activityCompose = "1.11.0"
+lifecycle = "2.9.4"
+camera = "1.5.1"
+biometric = "1.1.0"
+fragment = "1.8.9"
+opencv = "4.12.0"
+tesseract = "4.8.0"
+pdfbox = "2.0.27.0"
+tink = "1.24.0"
+sqlcipher = "4.10.0"
+sqlite = "2.5.2"
+zxing = "3.5.4"
+coroutines = "1.10.2"
+junit = "4.13.2"
+testRunner = "1.7.0"
+testExtJunit = "1.3.0"
+
+[libraries]
+androidx-core-ktx = { module = "androidx.core:core-ktx", version.ref = "coreKtx" }
+androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "activityCompose" }
+androidx-lifecycle-runtime-compose = { module = "androidx.lifecycle:lifecycle-runtime-compose", version.ref = "lifecycle" }
+androidx-lifecycle-viewmodel-compose = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "lifecycle" }
+compose-bom = { module = "androidx.compose:compose-bom", version.ref = "composeBom" }
+compose-ui = { module = "androidx.compose.ui:ui" }
+compose-ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview" }
+compose-material3 = { module = "androidx.compose.material3:material3" }
+compose-material-icons = { module = "androidx.compose.material:material-icons-extended" }
+camera-core = { module = "androidx.camera:camera-core", version.ref = "camera" }
+camera-camera2 = { module = "androidx.camera:camera-camera2", version.ref = "camera" }
+camera-lifecycle = { module = "androidx.camera:camera-lifecycle", version.ref = "camera" }
+camera-view = { module = "androidx.camera:camera-view", version.ref = "camera" }
+biometric = { module = "androidx.biometric:biometric", version.ref = "biometric" }
+androidx-fragment = { module = "androidx.fragment:fragment-ktx", version.ref = "fragment" }
+opencv = { module = "org.opencv:opencv", version.ref = "opencv" }
+tesseract = { module = "com.github.adaptech-cz.Tesseract4Android:tesseract4android-openmp", version.ref = "tesseract" }
+pdfbox = { module = "com.tom-roush:pdfbox-android", version.ref = "pdfbox" }
+tink = { module = "com.google.crypto.tink:tink-android", version.ref = "tink" }
+sqlcipher = { module = "net.zetetic:sqlcipher-android", version.ref = "sqlcipher" }
+androidx-sqlite = { module = "androidx.sqlite:sqlite", version.ref = "sqlite" }
+zxing = { module = "com.google.zxing:core", version.ref = "zxing" }
+coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "coroutines" }
+junit = { module = "junit:junit", version.ref = "junit" }
+androidx-test-runner = { module = "androidx.test:runner", version.ref = "testRunner" }
+androidx-test-ext-junit = { module = "androidx.test.ext:junit", version.ref = "testExtJunit" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }

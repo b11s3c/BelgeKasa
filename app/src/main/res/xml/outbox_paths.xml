@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Yalnızca şifreli .btz paketlerinin geçici olarak tutulduğu dizin paylaşılır. -->
+<paths>
+    <cache-path name="outbox" path="outbox/" />
+</paths>

@@ -1,0 +1,14 @@
+.gradle/
+build/
+app/build/
+local.properties
+.idea/
+*.iml
+.DS_Store
+captures/
+*.keystore
+*.jks
+dist/
+
+# Yalnızca bu bilgisayarda: rakip analizi notları, tam hafıza arşivi
+yerel/

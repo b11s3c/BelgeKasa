@@ -1,0 +1,21 @@
+name: Özellik önerisi / Feature request
+description: Yeni bir özellik ya da iyileştirme önerin
+labels: [öneri]
+body:
+  - type: textarea
+    id: ihtiyac
+    attributes:
+      label: Hangi ihtiyacı karşılayacak? / What problem does it solve?
+    validations:
+      required: true
+  - type: textarea
+    id: oneri
+    attributes:
+      label: Nasıl çalışmalı? / How should it work?
+  - type: checkboxes
+    id: ilkeler
+    attributes:
+      label: İlkeler / Principles
+      options:
+        - label: Bu öneri internet bağlantısı gerektirmiyor / This does not need internet access
+          required: true

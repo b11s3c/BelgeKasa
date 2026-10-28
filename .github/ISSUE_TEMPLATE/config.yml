@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Güvenlik açığı / Security vulnerability
+    url: https://github.com/b11s3c/BelgeKasa/security/advisories/new
+    about: Güvenlik açıklarını gizli bildirin / Report vulnerabilities privately
